@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5B5FF1E09F56320CAB3659 /* Pods_VVScoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2472BFB5AAA2CE81A4CF7B5C /* Pods_VVScoring.framework */; };
+		33101A221E0D8AB2001AD245 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33101A211E0D8AB2001AD245 /* Utility.swift */; };
+		33101A241E0D8FD5001AD245 /* example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 33101A231E0D8FD5001AD245 /* example.txt */; };
+		3320FD251E40F48600DC1B78 /* SingleTeamViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320FD241E40F48600DC1B78 /* SingleTeamViewCell.swift */; };
+		3320FD271E40F4CD00DC1B78 /* SingleTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3320FD261E40F4CD00DC1B78 /* SingleTeamViewController.swift */; };
+		333675891E005C2C00DAF49C /* tournaments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 333675881E005C2C00DAF49C /* tournaments.txt */; };
+		335E00B91E439688009D1761 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335E00B81E439688009D1761 /* FileCell.swift */; };
+		336449E91E2FD0F600D728DD /* AddTeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336449E81E2FD0F600D728DD /* AddTeamController.swift */; };
+		336449EB1E2FD57200D728DD /* NumPadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336449EA1E2FD57200D728DD /* NumPadController.swift */; };
+		336ABC961DF9C5BB00A588A9 /* TournamentSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ABC951DF9C5BB00A588A9 /* TournamentSelectController.swift */; };
+		336ABC981DF9C5CF00A588A9 /* TournamentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ABC971DF9C5CF00A588A9 /* TournamentCell.swift */; };
+		336ABC9A1DF9C94E00A588A9 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ABC991DF9C94E00A588A9 /* MenuController.swift */; };
+		33B17E611DF721EF00D1F443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E601DF721EF00D1F443 /* AppDelegate.swift */; };
+		33B17E661DF721EF00D1F443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B17E641DF721EF00D1F443 /* Main.storyboard */; };
+		33B17E681DF721EF00D1F443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B17E671DF721EF00D1F443 /* Assets.xcassets */; };
+		33B17E6B1DF721EF00D1F443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B17E691DF721EF00D1F443 /* LaunchScreen.storyboard */; };
+		33B17E761DF721EF00D1F443 /* VVScoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E751DF721EF00D1F443 /* VVScoringTests.swift */; };
+		33B17E811DF721EF00D1F443 /* VVScoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E801DF721EF00D1F443 /* VVScoringUITests.swift */; };
+		33B17E8F1DF7228E00D1F443 /* DataProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E8E1DF7228E00D1F443 /* DataProcessing.swift */; };
+		33B17E911DF722F400D1F443 /* ScoringTeleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E901DF722F400D1F443 /* ScoringTeleController.swift */; };
+		33B17E931DF7230F00D1F443 /* ScoringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E921DF7230F00D1F443 /* ScoringController.swift */; };
+		33B17E971DF7236E00D1F443 /* RankingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E961DF7236E00D1F443 /* RankingsCell.swift */; };
+		33B17E991DF7238900D1F443 /* RankingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E981DF7238900D1F443 /* RankingsController.swift */; };
+		33B17E9B1DF723B700D1F443 /* OurTeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E9A1DF723B700D1F443 /* OurTeamController.swift */; };
+		33B17E9D1DF7240100D1F443 /* OptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E9C1DF7240100D1F443 /* OptionsController.swift */; };
+		33B17E9F1DF7241D00D1F443 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17E9E1DF7241C00D1F443 /* MatchCell.swift */; };
+		33B17EA11DF7245F00D1F443 /* MatchesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B17EA01DF7245F00D1F443 /* MatchesController.swift */; };
+		33D0E2FF1E3122B6009506F4 /* addTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0E2FE1E3122B6009506F4 /* addTeamCell.swift */; };
+		33DDA6181E44EB1E00288FE8 /* DebugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDA6171E44EB1E00288FE8 /* DebugController.swift */; };
+		33E22F491DFB176300D5F845 /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E22F481DFB176300D5F845 /* FileUtility.swift */; };
+		33EF904A1E5DFBEA0038FC0A /* CompareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF90491E5DFBEA0038FC0A /* CompareController.swift */; };
+		351E8C1C1E23F06500C0D38A /* NewMatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351E8C1B1E23F06500C0D38A /* NewMatchController.swift */; };
+		357BFADF1E6DCDF900D531D8 /* Sheets API2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BFADE1E6DCDF900D531D8 /* Sheets API2.swift */; };
+		35FEF8A61E65DD0500E92A03 /* SheetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEF8A51E65DD0500E92A03 /* SheetsAPI.swift */; };
+		E208ACD11E4D6200001B15B3 /* officialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208ACD01E4D6200001B15B3 /* officialController.swift */; };
+		E29E56601E05A84000D7BF36 /* NewTournamentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E565F1E05A84000D7BF36 /* NewTournamentController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B17E721DF721EF00D1F443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B17E551DF721EF00D1F443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B17E5C1DF721EF00D1F443;
+			remoteInfo = VVScoring;
+		};
+		33B17E7D1DF721EF00D1F443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B17E551DF721EF00D1F443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B17E5C1DF721EF00D1F443;
+			remoteInfo = VVScoring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2472BFB5AAA2CE81A4CF7B5C /* Pods_VVScoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VVScoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33101A211E0D8AB2001AD245 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		33101A231E0D8FD5001AD245 /* example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.txt; sourceTree = "<group>"; };
+		3320FD241E40F48600DC1B78 /* SingleTeamViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTeamViewCell.swift; sourceTree = "<group>"; };
+		3320FD261E40F4CD00DC1B78 /* SingleTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTeamViewController.swift; sourceTree = "<group>"; };
+		333675881E005C2C00DAF49C /* tournaments.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tournaments.txt; sourceTree = "<group>"; };
+		335E00B81E439688009D1761 /* FileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
+		336449E81E2FD0F600D728DD /* AddTeamController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamController.swift; sourceTree = "<group>"; };
+		336449EA1E2FD57200D728DD /* NumPadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumPadController.swift; sourceTree = "<group>"; };
+		336ABC951DF9C5BB00A588A9 /* TournamentSelectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentSelectController.swift; sourceTree = "<group>"; };
+		336ABC971DF9C5CF00A588A9 /* TournamentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentCell.swift; sourceTree = "<group>"; };
+		336ABC991DF9C94E00A588A9 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		33B17E5D1DF721EF00D1F443 /* VVScoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVScoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B17E601DF721EF00D1F443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33B17E651DF721EF00D1F443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B17E671DF721EF00D1F443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33B17E6A1DF721EF00D1F443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33B17E6C1DF721EF00D1F443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B17E711DF721EF00D1F443 /* VVScoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVScoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B17E751DF721EF00D1F443 /* VVScoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVScoringTests.swift; sourceTree = "<group>"; };
+		33B17E771DF721EF00D1F443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B17E7C1DF721EF00D1F443 /* VVScoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVScoringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B17E801DF721EF00D1F443 /* VVScoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVScoringUITests.swift; sourceTree = "<group>"; };
+		33B17E821DF721EF00D1F443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B17E8E1DF7228E00D1F443 /* DataProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProcessing.swift; sourceTree = "<group>"; };
+		33B17E901DF722F400D1F443 /* ScoringTeleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoringTeleController.swift; sourceTree = "<group>"; };
+		33B17E921DF7230F00D1F443 /* ScoringController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoringController.swift; sourceTree = "<group>"; };
+		33B17E961DF7236E00D1F443 /* RankingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsCell.swift; sourceTree = "<group>"; };
+		33B17E981DF7238900D1F443 /* RankingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsController.swift; sourceTree = "<group>"; };
+		33B17E9A1DF723B700D1F443 /* OurTeamController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurTeamController.swift; sourceTree = "<group>"; };
+		33B17E9C1DF7240100D1F443 /* OptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsController.swift; sourceTree = "<group>"; };
+		33B17E9E1DF7241C00D1F443 /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		33B17EA01DF7245F00D1F443 /* MatchesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesController.swift; sourceTree = "<group>"; };
+		33D0E2FE1E3122B6009506F4 /* addTeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTeamCell.swift; sourceTree = "<group>"; };
+		33DDA6171E44EB1E00288FE8 /* DebugController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugController.swift; sourceTree = "<group>"; };
+		33E22F481DFB176300D5F845 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
+		33EF90491E5DFBEA0038FC0A /* CompareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareController.swift; sourceTree = "<group>"; };
+		351E8C1B1E23F06500C0D38A /* NewMatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMatchController.swift; sourceTree = "<group>"; };
+		357BFADE1E6DCDF900D531D8 /* Sheets API2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sheets API2.swift"; sourceTree = "<group>"; };
+		35FEF8A51E65DD0500E92A03 /* SheetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetsAPI.swift; sourceTree = "<group>"; };
+		628D6F26FDE5CE81F4F7A40D /* Pods-VVScoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVScoring.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VVScoring/Pods-VVScoring.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F3BA67E3F71C13853D7599 /* Pods-VVScoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVScoring.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VVScoring/Pods-VVScoring.release.xcconfig"; sourceTree = "<group>"; };
+		E208ACD01E4D6200001B15B3 /* officialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = officialController.swift; sourceTree = "<group>"; };
+		E29E565F1E05A84000D7BF36 /* NewTournamentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTournamentController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B17E5A1DF721EF00D1F443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5B5FF1E09F56320CAB3659 /* Pods_VVScoring.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B17E6E1DF721EF00D1F443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B17E791DF721EF00D1F443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B17E541DF721EF00D1F443 = {
+			isa = PBXGroup;
+			children = (
+				357BFADE1E6DCDF900D531D8 /* Sheets API2.swift */,
+				33B17E5F1DF721EF00D1F443 /* VVScoring */,
+				33B17E741DF721EF00D1F443 /* VVScoringTests */,
+				33B17E7F1DF721EF00D1F443 /* VVScoringUITests */,
+				33B17E5E1DF721EF00D1F443 /* Products */,
+				D53A304C724696C125AC6CB4 /* Pods */,
+				9883E246CDB0962800460F6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33B17E5E1DF721EF00D1F443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B17E5D1DF721EF00D1F443 /* VVScoring.app */,
+				33B17E711DF721EF00D1F443 /* VVScoringTests.xctest */,
+				33B17E7C1DF721EF00D1F443 /* VVScoringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B17E5F1DF721EF00D1F443 /* VVScoring */ = {
+			isa = PBXGroup;
+			children = (
+				35FEF8A51E65DD0500E92A03 /* SheetsAPI.swift */,
+				33B17E601DF721EF00D1F443 /* AppDelegate.swift */,
+				33B17E641DF721EF00D1F443 /* Main.storyboard */,
+				33B17E671DF721EF00D1F443 /* Assets.xcassets */,
+				33B17E691DF721EF00D1F443 /* LaunchScreen.storyboard */,
+				33B17E6C1DF721EF00D1F443 /* Info.plist */,
+				33B17E8E1DF7228E00D1F443 /* DataProcessing.swift */,
+				33DDA6171E44EB1E00288FE8 /* DebugController.swift */,
+				33B17E901DF722F400D1F443 /* ScoringTeleController.swift */,
+				33B17E921DF7230F00D1F443 /* ScoringController.swift */,
+				33B17E961DF7236E00D1F443 /* RankingsCell.swift */,
+				33B17E981DF7238900D1F443 /* RankingsController.swift */,
+				33B17E9A1DF723B700D1F443 /* OurTeamController.swift */,
+				33B17E9C1DF7240100D1F443 /* OptionsController.swift */,
+				33B17E9E1DF7241C00D1F443 /* MatchCell.swift */,
+				33B17EA01DF7245F00D1F443 /* MatchesController.swift */,
+				336ABC951DF9C5BB00A588A9 /* TournamentSelectController.swift */,
+				336ABC971DF9C5CF00A588A9 /* TournamentCell.swift */,
+				336ABC991DF9C94E00A588A9 /* MenuController.swift */,
+				33E22F481DFB176300D5F845 /* FileUtility.swift */,
+				E29E565F1E05A84000D7BF36 /* NewTournamentController.swift */,
+				33101A211E0D8AB2001AD245 /* Utility.swift */,
+				351E8C1B1E23F06500C0D38A /* NewMatchController.swift */,
+				336449E81E2FD0F600D728DD /* AddTeamController.swift */,
+				336449EA1E2FD57200D728DD /* NumPadController.swift */,
+				33D0E2FE1E3122B6009506F4 /* addTeamCell.swift */,
+				3320FD241E40F48600DC1B78 /* SingleTeamViewCell.swift */,
+				3320FD261E40F4CD00DC1B78 /* SingleTeamViewController.swift */,
+				335E00B81E439688009D1761 /* FileCell.swift */,
+				E208ACD01E4D6200001B15B3 /* officialController.swift */,
+				333675881E005C2C00DAF49C /* tournaments.txt */,
+				33101A231E0D8FD5001AD245 /* example.txt */,
+				33EF90491E5DFBEA0038FC0A /* CompareController.swift */,
+			);
+			path = VVScoring;
+			sourceTree = "<group>";
+		};
+		33B17E741DF721EF00D1F443 /* VVScoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B17E751DF721EF00D1F443 /* VVScoringTests.swift */,
+				33B17E771DF721EF00D1F443 /* Info.plist */,
+			);
+			path = VVScoringTests;
+			sourceTree = "<group>";
+		};
+		33B17E7F1DF721EF00D1F443 /* VVScoringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33B17E801DF721EF00D1F443 /* VVScoringUITests.swift */,
+				33B17E821DF721EF00D1F443 /* Info.plist */,
+			);
+			path = VVScoringUITests;
+			sourceTree = "<group>";
+		};
+		9883E246CDB0962800460F6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2472BFB5AAA2CE81A4CF7B5C /* Pods_VVScoring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53A304C724696C125AC6CB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				628D6F26FDE5CE81F4F7A40D /* Pods-VVScoring.debug.xcconfig */,
+				C6F3BA67E3F71C13853D7599 /* Pods-VVScoring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B17E5C1DF721EF00D1F443 /* VVScoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B17E851DF721EF00D1F443 /* Build configuration list for PBXNativeTarget "VVScoring" */;
+			buildPhases = (
+				221E99121E14D429C4D20A61 /* [CP] Check Pods Manifest.lock */,
+				33B17E591DF721EF00D1F443 /* Sources */,
+				33B17E5A1DF721EF00D1F443 /* Frameworks */,
+				33B17E5B1DF721EF00D1F443 /* Resources */,
+				E82E4F475B774F604D056F78 /* [CP] Embed Pods Frameworks */,
+				3C8A5C38130E9D0BC210878C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVScoring;
+			productName = VVScoring;
+			productReference = 33B17E5D1DF721EF00D1F443 /* VVScoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B17E701DF721EF00D1F443 /* VVScoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B17E881DF721EF00D1F443 /* Build configuration list for PBXNativeTarget "VVScoringTests" */;
+			buildPhases = (
+				33B17E6D1DF721EF00D1F443 /* Sources */,
+				33B17E6E1DF721EF00D1F443 /* Frameworks */,
+				33B17E6F1DF721EF00D1F443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B17E731DF721EF00D1F443 /* PBXTargetDependency */,
+			);
+			name = VVScoringTests;
+			productName = VVScoringTests;
+			productReference = 33B17E711DF721EF00D1F443 /* VVScoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33B17E7B1DF721EF00D1F443 /* VVScoringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B17E8B1DF721EF00D1F443 /* Build configuration list for PBXNativeTarget "VVScoringUITests" */;
+			buildPhases = (
+				33B17E781DF721EF00D1F443 /* Sources */,
+				33B17E791DF721EF00D1F443 /* Frameworks */,
+				33B17E7A1DF721EF00D1F443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B17E7E1DF721EF00D1F443 /* PBXTargetDependency */,
+			);
+			name = VVScoringUITests;
+			productName = VVScoringUITests;
+			productReference = 33B17E7C1DF721EF00D1F443 /* VVScoringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B17E551DF721EF00D1F443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Q Is Silqent";
+				TargetAttributes = {
+					33B17E5C1DF721EF00D1F443 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G8TSB5UPX9;
+						ProvisioningStyle = Automatic;
+					};
+					33B17E701DF721EF00D1F443 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33B17E5C1DF721EF00D1F443;
+					};
+					33B17E7B1DF721EF00D1F443 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33B17E5C1DF721EF00D1F443;
+					};
+				};
+			};
+			buildConfigurationList = 33B17E581DF721EF00D1F443 /* Build configuration list for PBXProject "VVScoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B17E541DF721EF00D1F443;
+			productRefGroup = 33B17E5E1DF721EF00D1F443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B17E5C1DF721EF00D1F443 /* VVScoring */,
+				33B17E701DF721EF00D1F443 /* VVScoringTests */,
+				33B17E7B1DF721EF00D1F443 /* VVScoringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B17E5B1DF721EF00D1F443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B17E6B1DF721EF00D1F443 /* LaunchScreen.storyboard in Resources */,
+				33B17E681DF721EF00D1F443 /* Assets.xcassets in Resources */,
+				333675891E005C2C00DAF49C /* tournaments.txt in Resources */,
+				33101A241E0D8FD5001AD245 /* example.txt in Resources */,
+				33B17E661DF721EF00D1F443 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B17E6F1DF721EF00D1F443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B17E7A1DF721EF00D1F443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		221E99121E14D429C4D20A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8A5C38130E9D0BC210878C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VVScoring/Pods-VVScoring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82E4F475B774F604D056F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VVScoring/Pods-VVScoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B17E591DF721EF00D1F443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D0E2FF1E3122B6009506F4 /* addTeamCell.swift in Sources */,
+				336ABC961DF9C5BB00A588A9 /* TournamentSelectController.swift in Sources */,
+				33B17EA11DF7245F00D1F443 /* MatchesController.swift in Sources */,
+				336449EB1E2FD57200D728DD /* NumPadController.swift in Sources */,
+				33B17E9D1DF7240100D1F443 /* OptionsController.swift in Sources */,
+				E29E56601E05A84000D7BF36 /* NewTournamentController.swift in Sources */,
+				3320FD251E40F48600DC1B78 /* SingleTeamViewCell.swift in Sources */,
+				33B17E931DF7230F00D1F443 /* ScoringController.swift in Sources */,
+				351E8C1C1E23F06500C0D38A /* NewMatchController.swift in Sources */,
+				335E00B91E439688009D1761 /* FileCell.swift in Sources */,
+				3320FD271E40F4CD00DC1B78 /* SingleTeamViewController.swift in Sources */,
+				33B17E991DF7238900D1F443 /* RankingsController.swift in Sources */,
+				33B17E9B1DF723B700D1F443 /* OurTeamController.swift in Sources */,
+				33B17E9F1DF7241D00D1F443 /* MatchCell.swift in Sources */,
+				336ABC9A1DF9C94E00A588A9 /* MenuController.swift in Sources */,
+				E208ACD11E4D6200001B15B3 /* officialController.swift in Sources */,
+				357BFADF1E6DCDF900D531D8 /* Sheets API2.swift in Sources */,
+				33E22F491DFB176300D5F845 /* FileUtility.swift in Sources */,
+				33EF904A1E5DFBEA0038FC0A /* CompareController.swift in Sources */,
+				33B17E911DF722F400D1F443 /* ScoringTeleController.swift in Sources */,
+				33B17E8F1DF7228E00D1F443 /* DataProcessing.swift in Sources */,
+				35FEF8A61E65DD0500E92A03 /* SheetsAPI.swift in Sources */,
+				33101A221E0D8AB2001AD245 /* Utility.swift in Sources */,
+				33DDA6181E44EB1E00288FE8 /* DebugController.swift in Sources */,
+				336449E91E2FD0F600D728DD /* AddTeamController.swift in Sources */,
+				33B17E971DF7236E00D1F443 /* RankingsCell.swift in Sources */,
+				33B17E611DF721EF00D1F443 /* AppDelegate.swift in Sources */,
+				336ABC981DF9C5CF00A588A9 /* TournamentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B17E6D1DF721EF00D1F443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B17E761DF721EF00D1F443 /* VVScoringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B17E781DF721EF00D1F443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B17E811DF721EF00D1F443 /* VVScoringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B17E731DF721EF00D1F443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B17E5C1DF721EF00D1F443 /* VVScoring */;
+			targetProxy = 33B17E721DF721EF00D1F443 /* PBXContainerItemProxy */;
+		};
+		33B17E7E1DF721EF00D1F443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B17E5C1DF721EF00D1F443 /* VVScoring */;
+			targetProxy = 33B17E7D1DF721EF00D1F443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B17E641DF721EF00D1F443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B17E651DF721EF00D1F443 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33B17E691DF721EF00D1F443 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B17E6A1DF721EF00D1F443 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B17E831DF721EF00D1F443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B17E841DF721EF00D1F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B17E861DF721EF00D1F443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628D6F26FDE5CE81F4F7A40D /* Pods-VVScoring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8TSB5UPX9;
+				INFOPLIST_FILE = VVScoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silqent.VVScoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33B17E871DF721EF00D1F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F3BA67E3F71C13853D7599 /* Pods-VVScoring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8TSB5UPX9;
+				INFOPLIST_FILE = VVScoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silqent.VVScoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		33B17E891DF721EF00D1F443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VVScoringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silqent.VVScoringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VVScoring.app/VVScoring";
+			};
+			name = Debug;
+		};
+		33B17E8A1DF721EF00D1F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VVScoringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silqent.VVScoringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VVScoring.app/VVScoring";
+			};
+			name = Release;
+		};
+		33B17E8C1DF721EF00D1F443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VVScoringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silqent.VVScoringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VVScoring;
+			};
+			name = Debug;
+		};
+		33B17E8D1DF721EF00D1F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VVScoringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silqent.VVScoringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VVScoring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B17E581DF721EF00D1F443 /* Build configuration list for PBXProject "VVScoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B17E831DF721EF00D1F443 /* Debug */,
+				33B17E841DF721EF00D1F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B17E851DF721EF00D1F443 /* Build configuration list for PBXNativeTarget "VVScoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B17E861DF721EF00D1F443 /* Debug */,
+				33B17E871DF721EF00D1F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B17E881DF721EF00D1F443 /* Build configuration list for PBXNativeTarget "VVScoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B17E891DF721EF00D1F443 /* Debug */,
+				33B17E8A1DF721EF00D1F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B17E8B1DF721EF00D1F443 /* Build configuration list for PBXNativeTarget "VVScoringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B17E8C1DF721EF00D1F443 /* Debug */,
+				33B17E8D1DF721EF00D1F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B17E551DF721EF00D1F443 /* Project object */;
+}

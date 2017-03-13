@@ -1,0 +1,6 @@
+framework module Pods_VVScoring {
+  umbrella header "Pods-VVScoring-umbrella.h"
+
+  export *
+  module * { export * }
+}
